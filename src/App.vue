@@ -3,6 +3,13 @@
   <!--<HelloWorld msg="Welcome to Your Vue.js App"/>-->
   <!--<NavBar />-->
   <SideBar />
+  
+  <!--<div id="nav">
+    <router-link to="/">Home</router-link> |
+    <router-link to="/about">About</router-link>
+  </div>
+  <router-view/>-->
+  
   <div class="main">testing.qwertyuiop</div>
 </template>
 
