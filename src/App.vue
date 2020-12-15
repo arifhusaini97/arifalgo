@@ -4,17 +4,12 @@
   <!--<NavBar />-->
   <SideBar />
   
-  <!--<div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <router-view/>-->
+  <div class="main"><router-view/> </div>
   
-  <div class="main">testing.qwertyuiop</div>
+  <!--<div class="main">testing.qwertyuiop</div>-->
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
 import SideBar from "./components/SideBar.vue";
 // import NavBar from "./components/NavBar.vue";
 
@@ -31,6 +26,8 @@ export default {
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
+  
+  // font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -39,8 +36,14 @@ export default {
 
   /* Style page content */
   .main {
-    margin-left: 160px; /* Same as the width of the sidebar */
+    margin-left: 170px; /* Same as the width of the sidebar */
     padding: 0px 10px;
   }
+
+  // body{
+  //   margin: 0px;
+  //   padding: 0px;
+  //   box-sizing: border-box;
+  // }
 }
 </style>

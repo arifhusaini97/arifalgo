@@ -1,10 +1,9 @@
 <template>
   <div class="sidenav">
-    <div><h1>ArifAlgo</h1></div>
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Clients</a>
-    <a href="#">Contact</a>
+    <div class="logo">ArifAlgo</div>
+    <router-link to="/dashboard">Dashboard</router-link>
+    <router-link to="/arts">Arts</router-link>
+    <router-link to="/learns">Learns</router-link>
   </div>
 </template>
 
@@ -18,7 +17,7 @@ export default {
 /* The sidebar menu */
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
+  width: 170px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   // z-index: 1; /* Stay on top */
   // top: 0; /* Stay at the top */
@@ -31,8 +30,15 @@ export default {
   border-right-style: solid;
 
   /* The navigation menu links */
+
+  .logo{
+    padding: 5px 5px 5px 5px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+
   a {
-    padding: 6px 8px 6px 16px;
+    padding: 7px 7px 7px 7px;
     text-decoration: none;
     font-size: 25px;
     color: black;
