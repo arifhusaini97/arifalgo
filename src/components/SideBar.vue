@@ -1,9 +1,10 @@
 <template>
   <div class="logo">ArifAlgo</div>
   <div class="sidenav">
-    <router-link to="/dashboard">Dashboard</router-link>
+    <router-link to="/overview">Overview</router-link>
     <router-link to="/arts">Arts</router-link>
     <router-link to="/learns">Learns</router-link>
+    <router-link to="/data">Data</router-link>
   </div>
 </template>
 
@@ -17,9 +18,10 @@ export default {
 /* The sidebar menu */
 
 .logo {
-  padding: 5px 5px 5px 5px;
+  padding: 25px 5px 25px 5px;
   font-size: 35px;
   font-weight: bold;
+  color: white;
 }
 
 .sidenav {
@@ -29,8 +31,10 @@ export default {
     padding: 7px 7px 7px 7px;
     text-decoration: none;
     font-size: 25px;
-    color: black;
+    color: white;
     display: flex;
+    flex-direction: column;
+    margin-top: 40px;
 
     /* When you mouse over the navigation links, change their color */
     &:hover {

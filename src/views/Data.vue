@@ -1,6 +1,6 @@
 <template>
-  <div class="learns">
-    <p>Learns</p>
+  <div class="data">
+    <p>Data</p>
   </div>
 </template>
 
@@ -12,7 +12,7 @@
 </script>
 
 <style scoped>
-.learns {
+.data {
     display: flex;
     justify-content: center;
     align-items: center;
