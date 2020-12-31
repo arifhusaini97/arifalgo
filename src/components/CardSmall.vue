@@ -4,7 +4,9 @@
     <div class="card-text">
       <!--<span class="date">17/12/2020</span>-->
       <h2>Circle 1</h2>
+      
     </div>
+    
   </div>
 </template>
 
@@ -76,5 +78,6 @@ export default {
     transform: scale(1.1);
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
   }
+
 }
 </style>
