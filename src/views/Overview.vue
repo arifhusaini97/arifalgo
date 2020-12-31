@@ -37,15 +37,17 @@ export default {
     .user-profile_user-panel {
       background-color: white;
       border: 1px solid #dfe3e8;
-      height: 100%;
 
       .user-profile_card {
-        padding: 20px;
+        // width:50%;
+        // padding: 3%;
         font-weight: bold;
+        font-size: 50%;
       }
       .user-profile_qualification {
-        padding: 20px;
+        // padding: 3%;
         font-weight: bold;
+        font-size: 50%;
       }
     }
   }
@@ -53,13 +55,15 @@ export default {
     display: flex;
     min-height: 50%;
     height: 50%;
+    width: 100%;
 
     .description-content {
-      padding: 20px;
+      // padding: 3%;
       width: 100%;
       background-color: white;
       // border-radius: 5px;
       border: 1px solid #dfe3e8;
+      font-size: 50%;
     }
   }
 }
